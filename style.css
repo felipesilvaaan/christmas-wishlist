@@ -5,6 +5,144 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+.snow{
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.snowflake{
+    background-color: transparent;
+    width: 1rem;
+    height: 1rem;
+
+    animation-name: fall, shake;
+    animation-duration: 10s, 5s;
+    animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 200px;
+	z-index: 1;
+	filter: blur(0.5px);
+}.snowflake1{
+    background-color: transparent;
+    width: 1rem;
+    height: 1rem;
+
+    animation-name: fall, shake;
+    animation-duration: 10s, 5s;
+    animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 500px;
+	top: -100px;
+	z-index: 1;
+	filter: blur(0.5px);
+}.snowflake2{
+    background-color: transparent;
+    width: 1rem;
+    height: 1rem;
+
+    animation-name: fall, shake;
+    animation-duration: 10s, 5s;
+    animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 800px;
+    top: -50px;
+	z-index: 1;
+	filter: blur(0.5px);
+}.snowflake3{
+    background-color: transparent;
+    width: 1rem;
+    height: 1rem;
+
+    animation-name: fall, shake;
+    animation-duration: 10s, 5s;
+    animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 50px;
+    top: -300px;
+	z-index: 1;
+	filter: blur(0.5px);
+}.snowflake4{
+    background-color: transparent;
+    width: 1rem;
+    height: 1rem;
+
+    animation-name: fall, shake;
+    animation-duration: 10s, 5s;
+    animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 300px;
+    top: 10px;
+	z-index: 1;
+	filter: blur(0.5px);
+}.snowflake5{
+    background-color: transparent;
+    width: 1rem;
+    height: 1rem;
+
+    animation-name: fall, shake;
+    animation-duration: 10s, 5s;
+    animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 200px;
+	z-index: 1;
+	filter: blur(0.5px);
+}.snowflake6{
+    background-color: transparent;
+    width: 1rem;
+    height: 1rem;
+
+    animation-name: fall, shake;
+    animation-duration: 10s, 5s;
+    animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 200px;
+	z-index: 1;
+	filter: blur(0.5px);
+}.snowflake7{
+    background-color: transparent;
+    width: 1rem;
+    height: 1rem;
+
+    animation-name: fall, shake;
+    animation-duration: 10s, 5s;
+    animation-timing-function: linear, ease-in-out;
+	animation-iteration-count: infinite, infinite;
+	position: absolute;
+	left: 200px;
+	z-index: 1;
+	filter: blur(0.5px);
+}
+@keyframes fall {
+	0% {
+		top: -10%;
+	}
+
+	100% {
+		top: 100%;
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: translatex(0);
+	}
+	50% {
+		transform: translatex(50px);
+	}
+	100% {
+		transform: translatex(0);
+	}
+}
+
 .container{
     width: 100%;
     min-height: 100vh;
