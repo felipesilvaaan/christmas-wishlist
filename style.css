@@ -1,0 +1,40 @@
+*{  
+    margin:0px;
+    padding:0px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-minimalistic-cartoon-cute-christmas-background-illustration-picture-image_975222.jpg);
+    background-size: contain;
+    margin: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    max-width: fit-content;
+    margin-inline: auto;
+    min-height: 300px;
+    padding: 25px;
+    
+    border-radius: 6%;
+}
+.box2{
+    max-width: fit-content;
+    margin-inline: auto;
+    min-height: 300px;
+    padding: 25px;
+    border-radius: 6%;
+    
+}
+.smalltext{
+    font-size: 15px;
+}
+.smallertext{
+    font-size: 10px;
+}
